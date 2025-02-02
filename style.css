@@ -182,7 +182,11 @@ label {
   }
   
   label {
-    font-size: 11px;
+    font-size: 10px;
+  }
+  
+  .form-check-inline {
+    font-size: 12px;
   }
   .card {
     width: 500px;
