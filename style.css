@@ -208,15 +208,15 @@ label {
     display: none;
   }
   .image {
-    width: 120px;
+    width: 110px;
     height: 140px;
-    margin-left: 60px;
+    margin-left: 40px;
     position: absolute;
     filter:brightness(20px);
   
   }
   .areaTotal{
-    width: 140px;
+    width: 110px;
     height: 105px;
     margin-left: 40px;
     position: absolute;
