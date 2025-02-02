@@ -10,6 +10,11 @@ $(document).ready(function () {
   $("#plataform").mask("0000000", { reverse: true });
   $("#stepsNumber").mask("0000000", { reverse: true });
   $("#widthsteps").mask("0000000", { reverse: true });
+   Swal.fire({
+    title: "Select the type of work and the unit of measurement, and the corresponding values!",
+    text: "",
+    icon: "success"
+  });
   totalArea();
   
 });
@@ -56,11 +61,11 @@ function ereserCamps() {
 
 //select kind job cilindro
 function Steps() {
-  Swal.fire({
-    title: "Select the measurement unit, the number of steps and the dimensions!",
-    text: "",
-    icon: "success"
-  });
+  // Swal.fire({
+  //   title: "Select the measurement unit, the number of steps and the dimensions!",
+  //   text: "",
+  //   icon: "success"
+  // });
   ereserCamps();
   var Totalarea = document.querySelectorAll(".totalArea");
   var retangulocamp = document.querySelectorAll(".retangulocamp");
@@ -86,11 +91,11 @@ function Steps() {
 }
 //select kind job area total
 function totalArea() {
-  Swal.fire({
-    title: "Select the measurement unit, height and area in square meters!",
-    text: "",
-    icon: "success"
-  });
+  // Swal.fire({
+  //   title: "Select the measurement unit, height and area in square meters!",
+  //   text: "",
+  //   icon: "success"
+  // });
   ereserCamps();
   var Totalarea = document.querySelectorAll(".totalArea");
   var retangulocamp = document.querySelectorAll(".retangulocamp");
@@ -116,11 +121,11 @@ function totalArea() {
 }
 //select kind job retangulo
 function Rectangle() {
-  Swal.fire({
-    title: "Select the measurement unit, the number of areas and the size of the dimensions!",
-    text: "",
-    icon: "success"
-  });
+  // Swal.fire({
+  //   title: "Select the measurement unit, the number of areas and the size of the dimensions!",
+  //   text: "",
+  //   icon: "success"
+  // });
   ereserCamps();
   var Totalarea = document.querySelectorAll(".totalArea");
   var retangulocamp = document.querySelectorAll(".retangulocamp");
@@ -146,11 +151,11 @@ function Rectangle() {
 }
 //select kind job cilindro
 function Cylinder() {
-  Swal.fire({
-    title: "Select the measurement unit, quantity, diameter and height!",
-    text: "",
-    icon: "success"
-  });
+  // Swal.fire({
+  //   title: "Select the measurement unit, quantity, diameter and height!",
+  //   text: "",
+  //   icon: "success"
+  // });
   ereserCamps();
   var Totalarea = document.querySelectorAll(".totalArea");
   var retangulocamp = document.querySelectorAll(".retangulocamp");
