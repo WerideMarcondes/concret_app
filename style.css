@@ -3,7 +3,7 @@ body {
 }
 .select {
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 30px;
 }
 .form-check-label {
   font-weight: bolder;
@@ -59,14 +59,15 @@ body {
 }
 
 label {
-  font-size: 17px;
+  font-size: 20px;
 }
 .card {
   width: 600px;
   height: 600px;
   align-items: center;
   text-align: center;
-  background-color: #EA6153;
+  background-color: #f53a25;
+  box-shadow: 5px 5px 5px 5px rgb(249, 250, 250);
 }
 
 #camera {
@@ -123,7 +124,7 @@ label {
 @media (max-width: 500px) {
   .select {
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 20px;
   }
   .form-check-input {
   width: 100px;
@@ -193,7 +194,8 @@ label {
     height: 470px;
     align-items: center;
     text-align: center;
-    background-color: #EA6153;
+    background-color: #f53a25;
+    box-shadow: 5px 5px 5px 5px rgb(249, 250, 250);
   }
   
   #camera {
@@ -212,7 +214,7 @@ label {
     display: none;
   }
   .image {
-    width: 110px;
+    width: 130px;
     height: 140px;
     margin-left: 40px;
     position: absolute;
@@ -220,16 +222,16 @@ label {
   
   }
   .areaTotal{
-    width: 110px;
+    width: 120px;
     height: 105px;
     margin-left: 40px;
     position: absolute;
     filter:brightness(20px);
   }
   .Steps {
-    width: 120px;
+    width: 140px;
     height: 240px;
-    margin-left: 50px;
+    margin-left: 30px;
     position: absolute;
     filter:brightness(20px);
   }
